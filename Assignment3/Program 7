@@ -1,0 +1,63 @@
+
+<html>
+<head>
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time Slot</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td title="Keynote by Dr Smith">Keynote</td>
+                <td colspan="2" title="Workshop on Machine Learning">Workshop</td>
+            </tr>
+            <tr>
+                <td>10:15 AM - 11:15 AM</td>
+                <td rowspan="2" title="Panel Discussion">Panel Discussion</td>
+                <td title="Cloud Computing">Cloud Computing</td>
+                <td title="Introduction to Cybersecurity">Cybersecurity</td>
+            </tr>
+            <tr>
+                <td>11:30 AM - 12:30 PM</td>
+                <td title="Workshop on Data Science">Data Science</td>
+                <td title="Talk on Blockchain">Blockchain</td>
+            </tr>
+            <tr>
+                <td>1:30 PM - 3:00 PM</td>
+                <td colspan="3" title="Keynote by Dr Jane Cooper">Plenary Session</td>
+            </tr>
+            <tr>
+                <td>3:15 PM - 4:15 PM</td>
+                <td title="Workshop on UI/UX Design">UI/UX Design</td>
+                <td title="Introduction to Quantum Computing">Quantum Computing</td>
+                <td rowspan="2" title="Hackathon hosted">Hackathon</td>
+            </tr>
+            <tr>
+                <td>4:30 PM - 5:30 PM</td>
+                <td title="Talk on DevOps">DevOps</td>
+                <td title="Session on Big Data">Big Data</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Legend</h2>
+    <ul>
+        <li><strong>Keynote:</strong> Special address by an expert.</li>
+        <li><strong>Workshop:</strong> Interactive session.</li>
+        <li><strong>Panel Discussion:</strong> Discussion with multiple speakers.</li>
+        <li><strong>Plenary Session:</strong> Combined session for all attendees.</li>
+        <li><strong>Hackathon:</strong> Hands-on coding competition.</li>
+    </ul>
+</body>
+</html>
+
+

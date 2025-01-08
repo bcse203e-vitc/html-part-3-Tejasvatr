@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Tejasvat R</title>
+    <style>
+        th, td {
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Restaurant Menu</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Dish Name</th>
+                <th>Category</th>
+                <th>Ingredients</th>
+                <th>Price</th>
+                <th>Customer Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Spring Rolls</td>
+                <td>Appetizer</td>
+                <td>Rice Paper, Vegetables</td>
+                <td>$5.99</td>
+                <td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td>Main Course</td>
+                <td>Rice Paper, Vegetables</td>
+                <td>$10.99</td>
+                <td>★★★☆☆</td>
+            </tr>
+            <tr>
+                <td>Grilled Chicken</td>
+                <td>Main Course</td>
+                <td>Chicken, Spices, Garlic</td>
+                <td>$14.99</td>
+                <td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Chocolate Cake</td>
+                <td>Dessert</td>
+                <td>Chocolate, Flour, Sugar</td>
+                <td>$6.99</td>
+                <td>★★★★★</td>
+            </tr>
+            <tr>
+                <td>Main Course</td>
+                <td>Chocolate, Flour, Sugar</td>
+                <td>$12.99</td>
+                <td>★★★☆☆</td>
+            </tr>
+            <tr>
+                <td>Vegetable Curry</td>
+                <td>Main Course</td>
+                <td>Vegetables, Spices, Coconut Milk</td>
+                <td>$11.99</td>
+                <td>★★★★☆</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Grand Total</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+

@@ -1,0 +1,77 @@
+
+<html>
+<head>
+    <title>Tejasvat R</title>
+    <style>
+        th, td {
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .highest-sales {
+            background-color: #ffd700;
+        }
+        tfoot {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Report Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>Salesperson</th>
+                <th>Product</th>
+                <th>Quantity Sold</th>
+                <th>Unit Price</th>
+                <th>Total Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="highest-sales">North</td>
+                <td>John Doe</td>
+                <td>Widget A</td>
+                <td>150</td>
+                <td>$20</td>
+                <td class="highest-sales">$3,000</td>
+            </tr>
+            <tr>
+                <td>South</td>
+                <td>Jane Smith</td>
+                <td>Widget B</td>
+                <td>100</td>
+                <td>$25</td>
+                <td>$2,500</td>
+            </tr>
+            <tr>
+                <td>East</td>
+                <td>Michael Brown</td>
+                <td>Widget C</td>
+                <td>120</td>
+                <td>$15</td>
+                <td>$1,800</td>
+            </tr>
+            <tr>
+                <td>West</td>
+                <td>Emily Davis</td>
+                <td>Widget D</td>
+                <td>80</td>
+                <td>$30</td>
+                <td>$2,400</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Grand Total</td>
+                <td>$9,700</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+

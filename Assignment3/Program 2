@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Tejasvat R</title>
+    </head>
+    <body>
+        <h1>Multi-level Organization Chart</h1>
+        <table border ="1" cellspacing="0" cellpadding="5">
+            <caption>Heirarchy</caption>
+            <thead>
+                <tr>
+                    <th>Department Name</th>
+                    <th>Manager</th>
+                    <th>Number of Employees</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #f6b7b7;">
+                    <td rowspan="4">HR</td>
+                    <td>Adam Petronski</td>
+                    <td>5</td>
+                    
+                    
+                </tr>
+                <tr style="background-color: #f2d3d3;">
+                    <td>Neil Armstrong</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: left;">Budget:Rs 45</td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: left;">Total Percentage: 72%</td>
+                </tr>
+                <tr style="background-color: #def1c4;">
+                    <td rowspan="4">Engineering</td>
+                    <td>Levi T</td>
+                    <td>7</td>
+                </tr>
+                
+
+                <tr style="background-color: #f2d3d3;">
+                    <td>John Bobbings</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: left;">Budget:Rs 4</td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: left;">Total Percentage: 7%</td>
+                </tr>
+
+                <tr style="background-color: #fffdfa;">
+                    <td rowspan="4">Marketing</td>
+                    <td>Ron Adams</td>
+                    <td>5</td>
+                    
+                </tr>
+                <tr style="background-color: #f2d3d3;">
+                    <td>Avin</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: left;">Budget:Rs 0.67</td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: left;">Total Percentage: 2%</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="7" style="text-align: center;"><strong>Total: Rs 101 </strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
